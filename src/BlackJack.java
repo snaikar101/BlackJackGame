@@ -117,7 +117,7 @@ public class BlackJack {
 	}
 	//Initializes Array with one deck of 52 cards
 	static void intializeCards (ArrayList<Card> deckOfCards){
-		String[] vals = {"A","K","Q","J","2","3","4","5","6","7","9","10"};
+		String[] vals = {"A","K","Q","J","2","3","4","5","6","7","8","9","10"};
 		String [] suits = {"Hearts","Spade","Daimond","Clubs"};
 		for(String suit : suits){
 			for(String val : vals){
